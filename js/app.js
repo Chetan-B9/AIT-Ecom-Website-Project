@@ -1,4 +1,4 @@
-// let menuBar = document.querySelector('.menu-bar');
+
 let menuBar = document.querySelector('.menu-bar i');
 let dropDown = document.querySelector('.drop-down');
 
