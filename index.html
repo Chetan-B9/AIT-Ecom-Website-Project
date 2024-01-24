@@ -19,7 +19,7 @@
     <section class = "page-container">
 	  <!-- header section  -->
 	  <!-- header top part  -->
-	  <header class = "header-section">
+	  <header class = "header-section" role="banner">
 	    <div class = "top-part">
 		  <div>
 		    <p>(+01)-2345+6789</p>
@@ -37,9 +37,9 @@
 		    <img src = "./Icons/logo.png" alt = "Logo" onclick = "location.href = 'index.html'"/>
 		  </div>
 		  
-		  <nav>
+		  <nav role="navigation">
 		    <ul>
-			   <li><a href = "index.html" class = "home">Home<a/></li>
+			  <li><a href = "index.html" class = "home">Home<a/></li>
 			  <li><a href = "shop.html" class = "shop">Shop<a/></li>
 			  <li><a href = "myAccount.html" class = "my-account">My Account<a/></li>
 			  <li><a href = "compare.html" class = "compare">Compare<a/></li>
@@ -67,21 +67,21 @@
 			  <i class="fa-solid fa-bars" onclick="getNavs()"></i>
 
 			  <div class="drop-down">
-				<nav>
-					<ul>
-						<li onclick="location.href = 'index.html'"><i class="fa-solid fa-house"></i>Home</li>
-						<li onclick="location.href = 'shop.html'"><i class="fa-solid fa-shop"></i>Shop</li>
-						<li onclick="location.href = 'myAccount.html'"><i class="fa-solid fa-user"></i>My Account</li>
-						<li onclick="location.href = 'compare.html'"><i class="fa-solid fa-ranking-star"></i>Compare</li>
-						<li onclick="location.href = 'login.html'"><i class="fa-solid fa-right-to-bracket"></i>Login/Register</li>
-					    <li><hr></li>
-						<li>
-							<div class = "search-box">
-								<input type = "text" placeholder = "Search for items..." />
-								<i class="fa-solid fa-magnifying-glass"></i>
-							  </div>
-						</li>
-					</ul>
+				<nav role="navigation">
+				  <ul>
+				        <li onclick="location.href = 'index.html'"><i class="fa-solid fa-house"></i>Home</li>
+					<li onclick="location.href = 'shop.html'"><i class="fa-solid fa-shop"></i>Shop</li>
+					<li onclick="location.href = 'myAccount.html'"><i class="fa-solid fa-user"></i>My Account</li>
+					<li onclick="location.href = 'compare.html'"><i class="fa-solid fa-ranking-star"></i>Compare</li>
+					<li onclick="location.href = 'login.html'"><i class="fa-solid fa-right-to-bracket"></i>Login/Register</li>
+					<li><hr></li>
+					<li>
+						<div class = "search-box" role="search">
+							<input type = "text" placeholder = "Search for items..." />
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+					</li>
+				</ul>
 				</nav>
 			  </div>
 			</div>
@@ -90,7 +90,7 @@
 	  </header>
 	  <!-- header section end -->
 	  
-	  <main>
+	  <main role="main">
 	    <!-- hero section  -->
 		<section class = "hero-section">
 		  <div class = "intro-part">
@@ -1137,7 +1137,7 @@
 	  <!-- main section end  -->
 	  
 	  <!-- Footer section  -->
-	  <footer class = "footer-section">
+	  <footer class = "footer-section" role="contentinfo">
 	    <!-- top-part  -->
 	    <div class = "top-part">
 		  <div>
