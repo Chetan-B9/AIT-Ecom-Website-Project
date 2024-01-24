@@ -14,7 +14,7 @@
     <section class = "page-container">
 	  <!-- header section  -->
 	  <!-- header top part  -->
-	  <header class = "header-section">
+	  <header class = "header-section" role="banner">
 	    <div class = "top-part">
 		  <div>
 		    <p>(+01)-2345+6789</p>
@@ -32,7 +32,7 @@
 		    <img src = "./Icons/logo.png" alt = "Logo"  onclick = "location.href = 'index.html'"/>
 		  </div>
 		  
-		  <nav>
+		  <nav role="navigation">
 		    <ul>
 			   <li><a href = "index.html" class = "home">Home<a/></li>
 			  <li><a href = "shop.html" class = "shop">Shop<a/></li>
@@ -62,7 +62,7 @@
 				<i class="fa-solid fa-bars" onclick="getNavs()"></i>
 
 				<div class="drop-down">
-				  <nav>
+				  <nav role="navigation">
 					<ul>
 						<li onclick="location.href = 'index.html'"><i class="fa-solid fa-house"></i>Home</li>
 						<li onclick="location.href = 'shop.html'"><i class="fa-solid fa-shop"></i>Shop</li>
@@ -71,7 +71,7 @@
 						<li onclick="location.href = 'login.html'"><i class="fa-solid fa-right-to-bracket"></i>Login/Register</li>
 					    <li><hr></li>
 						<li>
-							<div class = "search-box">
+							<div class = "search-box" role="search">
 								<input type = "text" placeholder = "Search for items..." />
 								<i class="fa-solid fa-magnifying-glass"></i>
 							  </div>
@@ -86,7 +86,7 @@
 	  <!-- header section end -->
 	  
 	  <!-- breadcrumbs  -->
-	  <div class = "breadcrumbs">
+	  <div class = "breadcrumbs" role="navigation">
 		  <ul>
 		    <li class = "main-crumb"><a href = "index.html">Home</a></li>
 			<li><a href = "fashion.html">Fashion</a></li>
@@ -96,7 +96,7 @@
 	  <!-- breadcrumbs end  -->
 	  
 	  <!-- main section  -->
-	  <main>
+	  <main role="main">
 	    <section class = "product-section">
 		  <div class = "product-images">
 		    <img src = "./Images/product-8-1.webp" alt = "main product image" />
@@ -313,7 +313,7 @@
 				<i class="fa-regular fa-star"></i>
 				<i class="fa-regular fa-star"></i>
 			  </div>
-			  <form>
+			  <form role="form">
 			    <Textarea placeholder ="Write comment"></Textarea>
 				<div>
 				  <input type = "type" placeholder="Name" />
@@ -578,7 +578,7 @@
 	  <!-- main section end  -->
 	  
 	  <!-- Footer section  -->
-	  <footer class = "footer-section">
+	  <footer class = "footer-section" role="contentinfo">
 	    <!-- top-part  -->
 	    <div class = "top-part">
 		  <div>
